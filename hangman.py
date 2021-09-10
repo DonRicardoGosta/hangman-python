@@ -16,7 +16,8 @@ class Game:
         self.hide_characters()
 
     def play(self):
-        pass
+        while(self.run):
+            self.ask_for_a_letter(self.hidedWord)
 
     def is_num(self,str):
         pass
